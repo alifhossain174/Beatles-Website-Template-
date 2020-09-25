@@ -1,0 +1,887 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ol,ul{
+	list-style: none;
+}
+.clr{
+	clear: both;
+}
+.full_wrapper{
+	width: 100%;
+}
+.wrapper{
+	width: 940px;
+	margin: auto;
+}
+
+/*End of Common CSS*/
+
+
+/*Top Header CSS Start*/
+.top_header{
+	background-color: #0872b9;
+	padding: 10px 0;
+}
+.theme_word{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.theme_word p{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin: top;
+}
+.social_icons{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.social_icons i{
+	color: white;
+	padding-left: 24px;
+	box-sizing: border-box;
+	font-size: 14px;
+	transition: all .3s linear;
+	margin: top;
+}
+.social_icons i:hover{
+	color: #353535;
+	
+}
+/*Top Header CSS End*/
+
+
+
+
+/*Header CSS Start*/
+.header{
+	padding: 20px 0;
+	transition: all .3s linear;
+}
+.logo{
+	width: 40%;
+	float: left;
+	text-align: left;
+}
+.menubar{
+	width: 60%;
+	float: left;
+	text-align: right;
+}
+.menu li{
+	display: inline-block;
+	padding: 16px 0;
+	box-sizing: border-box;
+}
+.menu li a{
+	display: block;
+	color: #353535;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 16px;
+	box-sizing: border-box;
+	transition: all .3s linear;
+}
+.menu li a:hover{
+	color: #4488c3;
+}
+/*Header CSS End*/
+
+
+
+
+
+/*Banner CSS Start*/
+.banner1{
+	background-image: url(../images/banner1.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.banner2{
+	background-image: url(../images/banner2.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.banner3{
+	background-image: url(../images/banner3.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.banner4{
+	background-image: url(../images/banner4.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.banner5{
+	background-image: url(../images/banner5.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.overlay_banner{
+	position: absolute;
+	top: 2px;
+	left: 0;
+	background-color: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+	text-align: right;
+	padding-top: 88px;
+	box-sizing: border-box;
+}
+.overlay_banner h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+}
+.overlay_banner h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: white;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.overlay_banner p{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	margin-bottom: 6px;
+}
+.overlay_banner a{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.overlay_banner .first_a{
+	border: 1px solid #0872b9;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	background-color: #0872b9;
+	transition: all .3s linear;
+}
+.overlay_banner .second_a{
+	padding: 10px 20px;
+	border: 1px solid white;
+	box-sizing: border-box;
+	margin-left: 20px;
+	transition: all .3s linear;
+}
+.overlay_banner .first_a:hover{
+	border-color: white;
+	background-color: transparent;
+}
+.overlay_banner .second_a:hover{
+	border-color: #0872b9;
+	background-color: #0872b9;
+}
+/*Banner CSS ENd*/
+
+
+
+/*About Us CSS Start*/
+.body1{
+	padding-top: 60px;
+}
+.header_section{
+	width: 150px;
+	margin: auto;
+	text-align: left;
+	margin-bottom: 37px;
+}
+.header_section h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: -12px;
+}
+.header_section img{
+	margin-left: -3px;
+}
+.body1_content{
+	padding-bottom: 60px;
+}
+.body1c1{
+	float: left;
+}
+.body1c2{
+	float: left;
+	padding-left: 22px;
+	padding-top: 44px;
+	box-sizing: border-box;
+}
+.body1c2 p{
+	width: 535px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #555555;
+	line-height: 24px;
+}
+.body1_firstpara{
+	margin-bottom: 35px;
+}
+/*About Us CSS End*/
+
+
+
+
+
+/*Our Service CSS Start*/
+.body2{
+	padding-bottom: 58px;
+}
+.service{
+	margin-bottom: 66px;
+}
+.body2_content h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #353535;
+}
+.body2_content p{
+	width: 260px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 24px;
+}
+.body2c1{
+	width: 31.9%;
+	float: left;
+	background: #f1f1f1;
+	margin-right: 10px;
+	padding-top: 51px;
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+.body2c1:hover{
+	box-shadow: 1px 1px 8px gray;
+}
+.body2c2{
+	width: 31.9%;
+	float: left;
+	background: #f1f1f1;
+	margin: 0 10px;
+	padding-top: 51px;
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+.body2c2:hover{
+	box-shadow: 1px 1px 8px gray;
+}
+.body2c3{
+	width: 31.9%;
+	float: left;
+	background: #f1f1f1;
+	margin-left: 10px;
+	padding-top: 51px;
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+.body2c3:hover{
+	box-shadow: 1px 1px 8px gray;
+}
+.overlay_body2{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	top: -40px;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.body2_icons{
+	height: 100%;
+	width: 100%;
+	line-height: 80px;
+	text-align: center;
+	border: 3px solid white;
+	border-radius: 50%;
+	position: relative;
+	z-index: 99;
+}
+.body2_icons img{
+	margin-top: 20px;
+}
+.body2_icons:before{
+	position: absolute;
+	content: "";
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+	right: 1px;
+	border: 2px solid #dfdfdf;
+	border-radius: 50%;
+	z-index: -1;
+	transition: all .3s linear;
+}
+.body2c1:hover .body2_icons:before{
+	border-color: #5bc5f4;
+}
+.body2c2:hover .body2_icons:before{
+	border-color: #5bc5f4;
+}
+.body2c3:hover .body2_icons:before{
+	border-color: #5bc5f4;
+}
+.body2c1:hover .body2_icons:after{
+	background-color: #5bc5f4;
+}
+.body2c2:hover .body2_icons:after{
+	background-color: #5bc5f4;
+}
+.body2c3:hover .body2_icons:after{
+	background-color: #5bc5f4;
+}
+.body2_icons:after{
+	position: absolute;
+	content: "";
+	top: 2px;
+	bottom: 2px;
+	left: 2px;
+	right: 2px;
+	border: 3px solid white;
+	border-radius: 50%;
+	background-color: #f1f1f1;
+	z-index: -3;
+	transition: all .3s linear;
+}
+/*Our Service CSS End*/
+
+
+
+
+/*Our Portfolio CSS Start*/
+.body3{
+	padding-bottom: 58px;
+}
+.body3_images{
+	width: 25%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.body3_images img{
+	height: 100%;
+}
+.extra{
+	margin-top: -70px;
+}
+.uniqe{
+	margin-top: 10px;
+}
+.body3_overlay_1{
+	position: absolute;
+	top: 2px;
+	left: 8.5px;
+	height: 97%;
+	width: 94%;
+	background-color: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transition: all .3s linear;
+}
+.body3_overlay_1 i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 20px;
+	background-color: #5bc5f4;
+	border-radius: 50%;
+	transition: all .3s linear;
+	opacity: 0;
+}
+.body3_overlay_2 i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 20px;
+	background-color: #5bc5f4;
+	border-radius: 50%;
+	transition: all .3s linear;
+	opacity: 0;
+}
+.body3_overlay_2{
+	position: absolute;
+	top: 2px;
+	left: 8.5px;
+	height: 98%;
+	width: 94%;
+	background-color: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transition: all .3s linear;
+}
+.body3_images:hover .body3_overlay_1{
+	opacity: 1;
+}
+.body3_images:hover .body3_overlay_1 i{
+	opacity: 1;
+}
+.body3_images:hover .body3_overlay_2{
+	opacity: 1;
+}
+.body3_images:hover .body3_overlay_2 i{
+	opacity: 1;
+}
+/*Our Portfolio CSS Start*/
+
+
+
+
+
+
+/*Our Team CSS Start*/
+.body4{
+	padding-bottom: 58px;
+}
+.body4_images{
+	width: 25%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.body4_images h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #353535;
+	text-transform: uppercase;
+	transition: all .3s linear;
+}
+.body4_images h5{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #555555;
+}
+.body4_images img{
+	margin-bottom: 10px;
+	transition: all .3s linear;
+}
+.body4_images:hover img{
+	box-shadow: 1px 1px 8px gray;
+}
+.body4_images:hover h3{
+	color: #5bc5f4;
+}
+.body4_overlay{
+	position: absolute;
+	top: 2px;
+	right: 12px;
+	height: 270.5px;
+	width: 0px;
+	padding-top: 32px;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: all .3s linear;
+}
+.body4_overlay i{
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid white;
+	border-radius: 50%;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	opacity: 0;
+	transition: all .3s linear;
+}
+.body4_images:hover .body4_overlay{
+	width: 80px;
+}
+.body4_images:hover i{
+	opacity: 1;
+}
+.body4_overlay i:hover{
+	background-color: #5bc5f4;
+}
+/*Our Team CSS ENd*/
+
+
+
+
+
+
+/*Testimonial CSS Start*/
+.body5{
+	padding-bottom: 60px;
+}
+.body5c1{
+	width: 50%;
+	float: left;
+	padding-right: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.body5c2{
+	width: 50%;
+	float: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.body5c1 img{
+	margin-bottom: 36px;
+}
+.body5c2 img{
+	margin-bottom: 36px;
+}
+.bodyc1_text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #f1f1f1;
+	position: relative;
+}
+.bodyc1_text h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 8px;
+	color: #353535;
+}
+.bodyc1_text img{
+	margin-bottom: 8px;
+}
+.bodyc1_text h5{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	margin-bottom: 16px;
+	color: #636363;
+}
+.bodyc1_text p{
+	width: 425px;
+	margin: auto;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #636363;
+}
+.bodyc1_text .triangle{
+	position: absolute;
+	top: -15px;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+/*Testimonial CSS End*/
+
+
+
+
+
+
+/*Footer CSS Start*/
+.footer{
+	background-color: #353535;
+}
+.footer_content{
+	padding-bottom: 12px;
+}
+.footer h3{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 52px;
+}
+.footerc1{
+	width: 50%;
+	float: left;
+}
+.footerc2{
+	width: 50%;
+	float: left;
+}
+.footerc1_c1{
+	width: 50%;
+	float: left;
+	padding-top: 20px;
+}
+.footerc1_c1 img{
+	margin-bottom: 30px;
+}
+.footerc1_c1 p{
+	color: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 24px;
+	width: 215px;
+}
+.footer_para{
+	margin-bottom: 36px;
+}
+.footerc1_c2{
+	width: 50%;
+	float: left;
+	padding-top: 33px;
+}
+.footerc1_c2_text{
+	padding-left: 45px;
+	position: relative;
+}
+.footerc1_c2_text i{
+	position: absolute;
+	top: 7px;
+	left: 0;
+	color: white;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 35px;
+	background-color: #5bc5f4;
+	border-radius: 50%;
+	font-size: 16px;
+}
+.footerc1_c2_text p{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 24px;
+	margin-bottom: 12px;
+}
+.footer_para_2{
+	width: 100px;
+}
+.footerc2_c1{
+	width: 38%;
+	float: left;
+	padding-top: 33px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.list_1{
+	float: left;
+}
+.list_2{
+	float: left;
+	padding-left: 35px;
+}
+.footerc2_c1 ul li{
+	margin-bottom: 25px;
+}
+.footerc2_c1 ul li:last-child{
+	margin-bottom: 0;
+}
+.footerc2_c1 ul li a{
+	display: block;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	transition: all .3s linear;
+}
+.footerc2_c1 ul li a:hover{
+	color: #5bc5f4;
+}
+.footerc2_c2{
+	width: 62%;
+	float: left;
+	padding-top: 33px;
+}
+.footerc2_c2 .footer_pic{
+	margin-bottom: 4px;
+}
+/*Footer CSS ENd*/
+
+
+
+
+/*bottom Footer CSS Start*/
+.bottom_footer{
+	text-align: center;
+	background-color: #555555;
+	padding: 17px 0;
+}
+.bottom_footer p{
+	color: white;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.bottom_footer p span{
+	text-transform: uppercase;
+	color: #5bc5f4;
+}
+/*Bottom Footer CSS End*/
+
+
+
+/*Sticky Menu Start*/
+
+.fixedmenu{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 99;
+	padding: 3px 0px;
+	background-color: white;
+	transition: all .5s linear;
+}
+
+/*Sticky Menu End*/
+
+
+
+
+/*Top Button CSS Start*/
+.top_btn{
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background-color: #0872b9;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 40%;
+	cursor: pointer;
+	display: none;
+}
+/*Top Button CSS End*/
+
+
+
+
+
+/*Banner Side Button CSS for Jquery start*/
+.prev{
+	color: #e2d5d5;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: transparent;
+	border: 1px solid #e2d5d5;
+	box-sizing: border-box;
+	border-radius: 50%;
+	transform: translate(0,-50%);
+	transition: all .3s linear;
+}
+.prev:hover{
+	color: #5bc5f4;
+	box-shadow: 1px 1px 8px gray;
+}
+.nxt{
+	color: #e2d5d5;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: transparent;
+	border: 1px solid #e2d5d5;
+	border-radius: 50%;
+	transform: translate(0,-50%);
+	transition: all .3s linear;
+}
+.nxt:hover{
+	color: #5bc5f4;
+	box-shadow: 1px 1px 8px gray;
+}
+/*Banner Side Button CSS for Jquery End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
